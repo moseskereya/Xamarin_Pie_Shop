@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Restaurant_App.Home"
+             Title="Home"
+             BackgroundImageSource="Fodie.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="Center" TextColor="White" FontSize="Medium" VerticalOptions="Center">Welcome  to our Restarant App</Label>
+            <Button Text="Navigate" BackgroundColor="Crimson" TextColor="White" Margin="20, 20" Padding="15 ,15, 15, 15" Clicked="Button_Clicked_1"
+                    VerticalOptions="EndAndExpand" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
